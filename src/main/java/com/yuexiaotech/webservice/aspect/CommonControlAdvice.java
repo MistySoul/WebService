@@ -22,7 +22,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Aspect
-@Order(10)
+@Order(0)
 public class CommonControlAdvice {
 
     @Retention(RetentionPolicy.RUNTIME)
